@@ -690,7 +690,7 @@ Can't wait to see you! <3`;
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = "#a04b72";
         ctx.font = "bold 24px sans-serif";
-        ctx.fillText("You tripped! Please try again 💔", 230, 125);
+        ctx.fillText("Oh no you tripped! Please try again 💔", 230, 125);
         ctx.font = "16px sans-serif";
         ctx.fillText("Tap to retry", 225, 155);
       }
@@ -889,7 +889,7 @@ Can't wait to see you! <3`;
       <div className="card">
         {screen === "question" && (
           <>
-            <p className="subtitle">A tiny question from the heart</p>
+            <p className="subtitle">🤍 A tiny question 🤍</p>
             <h1>Will you go on a date with me?</h1>
 
             <div className="buttons">
@@ -956,7 +956,7 @@ Can't wait to see you! <3`;
             {showWinPopup && (
               <div className="win-popup">
                 <h2>Woewoep 💖</h2>
-                <p>Thank you for putting in the effort</p>
+                <p>Thank you for putting in the effort 🥰 </p>
                 <p>Now please choose the date</p>
                 <button
                   className="choose-date-btn"
