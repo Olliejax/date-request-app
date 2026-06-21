@@ -679,7 +679,7 @@ Can't wait to see you! <3`;
           ctx.fillRect(0, 0, canvas.width, canvas.height);
           ctx.fillStyle = "#a04b72";
           ctx.font = "bold 24px sans-serif";
-          ctx.fillText("Jump over the 10 blocks and reach Julie!", 135, 110);
+          ctx.fillText("Jump over the 10 blocks to reach Me!", 135, 110);
           ctx.font = "16px sans-serif";
           ctx.fillText("Tap, click, Space, or Arrow Up to start", 220, 145);
         }
@@ -690,9 +690,9 @@ Can't wait to see you! <3`;
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = "#a04b72";
         ctx.font = "bold 24px sans-serif";
-        ctx.fillText("He tripped! Try again 💔", 230, 125);
+        ctx.fillText("You tripped! Please try again 💔", 230, 125);
         ctx.font = "16px sans-serif";
-        ctx.fillText("Tap, click, or press Space to retry", 225, 155);
+        ctx.fillText("Tap to retry", 225, 155);
       }
 
       if (gameStatusRef.current === "won") {
@@ -956,8 +956,8 @@ Can't wait to see you! <3`;
             {showWinPopup && (
               <div className="win-popup">
                 <h2>Woewoep 💖</h2>
-                <p>Thank you for putting in the effort.</p>
-                <p>Now please choose the date.</p>
+                <p>Thank you for putting in the effort</p>
+                <p>Now please choose the date</p>
                 <button
                   className="choose-date-btn"
                   onClick={() => setScreen("pick-day")}
@@ -1014,7 +1014,7 @@ Can't wait to see you! <3`;
                     top: `${mindPos.y}px`,
                   }}
                 >
-                  I changed my mind, not in the mood for a date
+                  I changed my mind, not in the mood
                 </button>
               )}
             </div>
