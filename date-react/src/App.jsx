@@ -933,7 +933,7 @@ Can't wait to see you! <3`;
             <p className="subtitle">Mini game</p>
             <h1>Come and find me!</h1>
             <p className="picker-text">
-              Please jump over the 10 blocks to reach Julie.
+              Please jump over the 10 blocks to reach me.
             </p>
 
             <div className="game-hud">
