@@ -16,4 +16,4 @@ Time: ${o} - ${Ie(o)}
 Location: I'll pick you up at your place 🚗 
 
 ${e}
-Can't wait to see you! 🩵`;window.open(`https://wa.me/32468132682?text=${encodeURIComponent(t)}`,`_blank`)},children:`Let me know on WhatsApp`})]})]})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,m.jsx)(l.StrictMode,{children:(0,m.jsx)(h,{})}));
+Can't wait to see you! 🩵`;window.open(`https://wa.me/32468132682?text=${encodeURIComponent(t)}`,`_blank`)},children:`Click here to finish`})]})]})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,m.jsx)(l.StrictMode,{children:(0,m.jsx)(h,{})}));
